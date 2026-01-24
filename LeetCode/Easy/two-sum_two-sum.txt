@@ -1,10 +1,10 @@
 /**
  * Problem: two-sum
  * Platform: LeetCode
- * Problem URL: https://leetcode.com/problems/two-sum/submissions/777891683/
+ * Problem URL: https://leetcode.com/problems/two-sum/submissions/1895119545/
  * Difficulty: Easy
  * Language: cpp
- * Date: 2026-01-24T08:27:57.028Z
+ * Date: 2026-01-24T08:29:55.970Z
  */
 
 c
