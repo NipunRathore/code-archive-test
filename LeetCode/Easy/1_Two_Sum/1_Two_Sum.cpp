@@ -4,10 +4,10 @@
  * Problem URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-01-25T14:08:25.462Z
+ * Date: 2026-01-25T14:12:57.582Z
  * Performance:
- * Runtime: 41ms
- * Memory: 5MB
+ * Runtime: 143ms (Beats 5.01%)
+ * Memory: 13.96MB (Beats 5.01%)
  */
 
 class Solution {
