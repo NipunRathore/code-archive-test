@@ -4,10 +4,10 @@
  * Problem URL: https://leetcode.com/problems/add-two-numbers/
  * Difficulty: Medium
  * Language: python3
- * Date: 2026-01-25T14:09:36.600Z
+ * Date: 2026-01-25T16:28:15.161Z
  * Performance:
- * Runtime: 10ms
- * Memory: 5MB
+ * Runtime: 4ms (Beats 50.94%)
+ * Memory: 19.42MB (Beats 14.41%)
 """
 
 # Definition for singly-linked list.
@@ -41,3 +41,4 @@ class Solution:
 
 # Testing Code Archive extension by @NipunRathore
 # solution + readme + images + stats 
+# testing extension ui 
