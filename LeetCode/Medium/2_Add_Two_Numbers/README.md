@@ -6,7 +6,7 @@
 
 ## Problem Description
 
-You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sumÂ as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
@@ -41,4 +41,4 @@ Output: [8,9,9,9,0,0,0,1]
 
 **Language:** python3
 
-**Submitted:** 25/01/2026, 18:35:03
+**Submitted:** 25/01/2026, 18:44:16
