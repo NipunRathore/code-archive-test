@@ -3,40 +3,37 @@
  * Platform: LeetCode
  * Problem URL: https://leetcode.com/problems/add-two-numbers/
  * Difficulty: Medium
- * Language: Python3
- * Date: 2026-01-25T12:58:10.894Z
+ * Language: python3
+ * Date: 2026-01-25T13:05:03.345Z
 """
 
 # Definition for singly-linked list.
-# class ListNode(object):
+# class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution(object):
-    def addTwoNumbers(self, l1, l2):
-        """
-        :type l1: Optional[ListNode]
-        :type l2: Optional[ListNode]
-        :rtype: Optional[ListNode]
-        """
-        dummy = ListNode(0)
-        current = dummy
-        carry = 0
+class Solution:
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        dummy = ListNode()
+        res = dummy
+
+        total = carry = 0
 
         while l1 or l2 or carry:
-            sum = carry
+            total = carry
 
             if l1:
-                sum += l1.val
+                total += l1.val
                 l1 = l1.next
             if l2:
-                sum += l2.val
+                total += l2.val
                 l2 = l2.next
+            
+            num = total % 10
+            carry = total // 10
+            dummy.next = ListNode(num)
+            dummy = dummy.next
+        
+        return res.next
 
-            carry = sum // 10
-            current.next = ListNode(sum % 10)
-            current = current.next
-
-        return dummy.next
-
-# Testing Code Archive by @NipunRathore
+# Testing Code Archive extension by @NipunRathore
