@@ -4,7 +4,7 @@
  * Problem URL: https://leetcode.com/problems/add-two-numbers/
  * Difficulty: Medium
  * Language: python3
- * Date: 2026-01-25T13:33:13.114Z
+ * Date: 2026-01-25T13:36:10.090Z
 """
 
 # Definition for singly-linked list.
@@ -37,4 +37,4 @@ class Solution:
         return res.next
 
 # Testing Code Archive extension by @NipunRathore
-# solution + readme + images now 
+# solution + readme + images now - (2)
