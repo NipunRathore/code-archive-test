@@ -39,6 +39,6 @@ Output: [8,9,9,9,0,0,0,1]
 
 ## Solution
 
-**Language:** python3
+**Language:** Python3
 
-**Submitted:** 25/01/2026, 18:25:44
+**Submitted:** 25/01/2026, 18:28:10
