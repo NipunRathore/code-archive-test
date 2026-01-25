@@ -4,9 +4,9 @@
  * Problem URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-01-25T19:49:51.009Z
+ * Date: 2026-01-25T19:50:52.893Z
  * Performance:
- * Runtime: 148ms (Beats 5.00%)
+ * Runtime: 144ms (Beats 5.00%)
  * Memory: 14.17MB (Beats 66.62%)
  */
 
