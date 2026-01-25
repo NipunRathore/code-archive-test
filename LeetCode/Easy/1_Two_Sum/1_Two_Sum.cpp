@@ -4,7 +4,7 @@
  * Problem URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-01-25T12:44:46.575Z
+ * Date: 2026-01-25T13:21:47.686Z
  */
 
 class Solution {
@@ -29,5 +29,4 @@ public:
     }
 };
 // T.C. = O(N^2)
-// Testing Code Archive extension
-// Readme plus code now - (2)
+// Testing Code Archive extension by @NipunRathore
