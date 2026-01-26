@@ -1,5 +1,7 @@
 # [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
+**Difficulty:** Easy
+
 ---
 
 ## Problem Description
@@ -48,4 +50,4 @@ Output: [0,1]
 
 **Language:** C++
 
-**Submitted:** 26/01/2026, 19:17:26
+**Submitted:** 26/01/2026, 19:19:55
