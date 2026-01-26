@@ -1,10 +1,12 @@
 /**
  * Problem: Two Sum
  * Platform: LeetCode
- * Problem URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-01-26T13:56:21.329Z
+ * Date: 2026-01-26T14:01:18.346Z
+ * Performance:
+ * Runtime: 135ms (Beats 5.00%)
+ * Memory: 13.99MB (Beats 93.62%)
  */
 
 class Solution {
