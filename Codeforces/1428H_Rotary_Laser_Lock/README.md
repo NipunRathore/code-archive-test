@@ -4,7 +4,7 @@
 
 ## Problem Statement
 
-This is an interactive problem.
+**This is an interactive problem.**
 
 To prevent the mischievous rabbits from freely roaming around the zoo, Zookeeper has set up a special lock for the rabbit enclosure. This lock is called the Rotary Laser Lock.
 
@@ -16,13 +16,13 @@ The core has $nm$ lasers that shine outward from the center, one for each sectio
 
 In the example above, there are $n=3$ rings, each covering $m=4$ sections. The arcs are colored in green (ring $0$), purple (ring $1$), and blue (ring $2$) while the lasers beams are shown in red. There are $nm=12$ sections and $3$ of the lasers are not blocked by any arc, thus the display will show $3$ in this case.
 
-Wabbit is trying to open the lock to free the rabbits, but the lock is completely opaque, and he cannot see where any of the arcs are. Given the relative positions of the arcs, Wabbit can open the lock on his own.
+Wabbit is trying to open the lock to free the rabbits, but the lock is completely opaque, and he cannot see where any of the arcs are. Given the **relative positions** of the arcs, Wabbit can open the lock on his own.
 
 To be precise, Wabbit needs $n-1$ integers $p_1,p_2,\ldots,p_{n-1}$ satisfying $0 \leq p_i  \lt  nm$ such that for each $i$ $(1 \leq i  \lt  n)$, Wabbit can rotate ring $0$ clockwise exactly $p_i$ times such that the sections that ring $0$ covers perfectly aligns with the sections that ring $i$ covers. In the example above, the relative positions are $p_1 = 1$ and $p_2 = 7$.
 
 To operate the lock, he can pick any of the $n$ rings and rotate them by $1$ section either clockwise or anti-clockwise. You will see the number on the display after every rotation.
 
-Because his paws are small, Wabbit has asked you to help him to find the relative positions of the arcs after all of your rotations are completed. You may perform up to $15000$ rotations before Wabbit gets impatient.
+Because his paws are small, Wabbit has asked you to help him to find the **relative positions** of the arcs **after all of your rotations are completed**. You may perform up to $15000$ rotations before Wabbit gets impatient.
 
 ## Examples
 
@@ -63,21 +63,21 @@ The first line consists of 2 integers $n$ and $m$ $(2 \leq n \leq 100, 2 \leq m 
 
 ## Interaction
 
-To perform a rotation, print on a single line "? x d" where $x$ $(0 \leq x  \lt  n)$ is the ring that you wish to rotate and $d$ $(d \in \{-1,1\})$ is the direction that you would like to rotate in. $d=1$ indicates a clockwise rotation by $1$ section while $d=-1$ indicates an anticlockwise rotation by $1$ section.
+To perform a rotation, print on a single line "`? x d`" where $x$ $(0 \leq x  \lt  n)$ is the ring that you wish to rotate and $d$ $(d \in \{-1,1\})$ is the direction that you would like to rotate in. $d=1$ indicates a clockwise rotation by $1$ section while $d=-1$ indicates an anticlockwise rotation by $1$ section.
 
 For each query, you will receive a single integer $a$: the number of lasers that are not blocked by any of the arcs after the rotation has been performed.
 
-Once you have figured out the relative positions of the arcs, print ! followed by $n-1$ integers $p_1, p_2, \ldots, p_{n-1}$.
+Once you have figured out the relative positions of the arcs, print `!` followed by $n-1$ integers $p_1, p_2, \ldots, p_{n-1}$.
 
 Do note that the positions of the rings are predetermined for each test case and won't change during the interaction process.
 
-After printing a query do not forget to output the end of line and flush the output. Otherwise, you will get Idleness limit exceeded verdict.
+After printing a query do not forget to output the end of line and flush the output. Otherwise, you will get `Idleness limit exceeded` verdict.
 
 To do this, use:
 
-fflush(stdout) or cout.flush() in C++; System.out.flush() in Java; flush(output) in Pascal; stdout.flush() in Python; see documentation for other languages.
+`fflush(stdout)` or `cout.flush()` in C++; `System.out.flush()` in Java; `flush(output)` in Pascal; `stdout.flush()` in Python; see documentation for other languages.
 
-Hacks:
+**Hacks:**
 
 To hack, use the following format of test:
 
@@ -91,19 +91,13 @@ For the first test, the configuration is the same as shown on the picture from t
 
 After the first rotation (which is rotating ring $0$ clockwise by $1$ section), we obtain the following configuration:
 
-
-
 ![Image](https://espresso.codeforces.com/a3ca503acc94f61b8b25428e93aa5bb3edc3c761.png)
 
 After the second rotation (which is rotating ring $2$ counter-clockwise by $1$ section), we obtain the following configuration:
 
-
-
 ![Image](https://espresso.codeforces.com/955a2f5c4f50184d87789b5a97e5ad7c3310c859.png)
 
 After the third rotation (which is rotating ring $1$ clockwise by $1$ section), we obtain the following configuration:
-
-
 
 ![Image](https://espresso.codeforces.com/71f95f75b83b810f4f92837351386d9060df2b2c.png)
 
@@ -119,4 +113,4 @@ Note that if we will make a different set of rotations, we can end up with diffe
 
 **Language:** cpp
 
-**Submitted:** 01/03/2026, 15:27:33
+**Submitted:** 01/03/2026, 17:18:26
