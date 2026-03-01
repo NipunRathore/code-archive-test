@@ -4,9 +4,9 @@
  * Problem URL: https://codeforces.com/problemset/problem/1428/H
  * Tags: binary search, interactive
  * Language: cpp
- * Date: 2026-03-01T11:48:26.376Z
+ * Date: 2026-03-01T11:53:11.344Z
  * Performance:
- * Runtime: 156ms
+ * Runtime: 109ms
  * Memory: 4000KB
  */
 
@@ -38,4 +38,4 @@ int main(){
 	asw(ans);
 	return 0;
 }
-// code archive test - 8
+// code archive test - 9
