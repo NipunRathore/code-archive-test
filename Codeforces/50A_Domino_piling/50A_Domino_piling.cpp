@@ -4,7 +4,7 @@
  * Problem URL: https://codeforces.com/problemset/problem/50/A
  * Tags: greedy, math, *800
  * Language: cpp
- * Date: 2026-03-01T06:52:19.492Z
+ * Date: 2026-03-01T07:02:00.596Z
  * Performance:
  * Runtime: 92ms
  * Memory: 100KB
@@ -21,4 +21,4 @@ int main()
     cout << M * N / 2 << endl;
     return 0;
 }
-// code archive test - 11
+// code archive test - 12
