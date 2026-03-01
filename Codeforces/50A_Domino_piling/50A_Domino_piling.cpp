@@ -3,7 +3,7 @@
  * Platform: Codeforces
  * Problem URL: https://codeforces.com/problemset/problem/50/A
  * Language: cpp
- * Date: 2026-03-01T06:05:31.119Z
+ * Date: 2026-03-01T06:20:53.691Z
  * Performance:
  * Runtime: 92ms
  * Memory: 100KB
@@ -20,4 +20,5 @@ int main()
     cout << M * N / 2 << endl;
     return 0;
 }
-// code archive test - 9
+
+// Code Archive test - 10
