@@ -12,4 +12,4 @@ Problem: https://codeforces.com/problemset/problem/50/A
 
 **Language:** cpp
 
-**Submitted:** 01/03/2026, 11:08:46
+**Submitted:** 01/03/2026, 11:18:18
