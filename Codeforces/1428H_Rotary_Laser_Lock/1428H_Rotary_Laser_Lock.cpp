@@ -2,11 +2,11 @@
  * Problem: Rotary Laser Lock
  * Platform: Codeforces
  * Problem URL: https://codeforces.com/problemset/problem/1428/H
- * Tags: binary search, interactive, *3500
+ * Tags: binary search, interactive
  * Language: cpp
- * Date: 2026-03-01T08:08:45.743Z
+ * Date: 2026-03-01T08:16:33.045Z
  * Performance:
- * Runtime: 125ms
+ * Runtime: 140ms
  * Memory: 4000KB
  */
 
@@ -38,4 +38,4 @@ int main(){
 	asw(ans);
 	return 0;
 }
-// code archive test - 2
+// code archive test - 3
