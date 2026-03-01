@@ -14,10 +14,6 @@ You are given a rectangular board of *M* × *N* squares. Also you are given 
 
 Find the maximum number of dominoes, which can be placed under these restrictions.
 
-In a single line you are given two integers *M* and *N* — board sizes in squares (1 ≤ *M* ≤ *N* ≤ 16).
-
-Output one number — the maximal number of dominoes, which can be placed.
-
 ## Examples
 
 ### Example 1
@@ -46,6 +42,11 @@ Output one number — the maximal number of dominoes, which can be placed.
 
 ## Constraints
 
+**Limits:**
+
+- Time: 2 seconds
+- Memory: 256 megabytes
+
 **Input:**
 
 In a single line you are given two integers *M* and *N* — board sizes in squares (1 ≤ *M* ≤ *N* ≤ 16).
@@ -60,4 +61,4 @@ Output one number — the maximal number of dominoes, which can be placed.
 
 **Language:** cpp
 
-**Submitted:** 01/03/2026, 12:22:19
+**Submitted:** 01/03/2026, 12:32:00
