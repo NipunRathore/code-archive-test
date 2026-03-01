@@ -79,7 +79,7 @@ The next line of should contain $$$n-1$$$ integers $$$p_1,p_2,\ldots,p_{n-1}$$$:
 
 The first line consists of 2 integers $$$n$$$ and $$$m$$$ $$$(2 \leq n \leq 100, 2 \leq m \leq 20)$$$, indicating the number of rings and the number of sections each ring covers.
 
-**Note:**
+## Note
 
 For the first test, the configuration is the same as shown on the picture from the statement.
 
@@ -107,4 +107,4 @@ Note that if we will make a different set of rotations, we can end up with diffe
 
 **Language:** cpp
 
-**Submitted:** 01/03/2026, 12:45:01
+**Submitted:** 01/03/2026, 13:00:38
