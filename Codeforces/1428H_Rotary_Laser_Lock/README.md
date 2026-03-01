@@ -1,5 +1,7 @@
 # [1428H. Rotary Laser Lock](https://codeforces.com/problemset/problem/1428/H)
 
+**Tags:** binary search, interactive
+
 ---
 
 ## Problem Statement
@@ -113,4 +115,9 @@ Note that if we will make a different set of rotations, we can end up with diffe
 
 **Language:** cpp
 
-**Submitted:** 01/03/2026, 17:18:26
+### Performance
+
+- **Runtime:** 109ms
+- **Memory:** 4000KB
+
+**Submitted:** 01/03/2026, 17:23:11
