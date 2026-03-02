@@ -1,12 +1,13 @@
 /**
  * Problem: Two Sum
  * Platform: LeetCode
+ * Problem URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-01-26T14:01:18.346Z
+ * Date: 2026-03-02T15:43:31.095Z
  * Performance:
- * Runtime: 135ms (Beats 5.00%)
- * Memory: 13.99MB (Beats 93.62%)
+ * Runtime: 137ms (Beats 5.24%)
+ * Memory: 13.96MB (Beats 93.89%)
  */
 
 class Solution {
@@ -33,4 +34,4 @@ public:
 // T.C. = O(N^2)
 // Testing Code Archive extension by @NipunRathore
 // solution + readme + images + stats
-// testing ui now 
+// testing ui heatmap now 
