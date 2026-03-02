@@ -1,4 +1,4 @@
-# 1. Two Sum
+# [1. Two Sum](https://leetcode.com/problems/two-sum/)
 
 **Difficulty:** Easy
 
@@ -50,4 +50,9 @@ Output: [0,1]
 
 **Language:** C++
 
-**Submitted:** 26/01/2026, 19:31:18
+### Performance
+
+- **Runtime:** 137ms (Beats 5.24%)
+- **Memory:** 13.96MB (Beats 93.89%)
+
+**Submitted:** 02/03/2026, 21:13:31
