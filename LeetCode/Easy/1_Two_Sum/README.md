@@ -52,7 +52,7 @@ Output: [0,1]
 
 ### Performance
 
-- **Runtime:** 139ms (Beats 5.24%)
-- **Memory:** 14.10MB (Beats 80.28%)
+- **Runtime:** 151ms (Beats 5.24%)
+- **Memory:** 13.98MB (Beats 93.89%)
 
-**Submitted:** 04/03/2026, 01:00:36
+**Submitted:** 04/03/2026, 01:01:43
