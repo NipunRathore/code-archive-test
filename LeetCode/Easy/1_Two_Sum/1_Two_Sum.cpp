@@ -4,10 +4,10 @@
  * Problem URL: https://leetcode.com/problems/two-sum/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-03-03T19:30:36.380Z
+ * Date: 2026-03-03T19:31:43.311Z
  * Performance:
- * Runtime: 139ms (Beats 5.24%)
- * Memory: 14.10MB (Beats 80.28%)
+ * Runtime: 151ms (Beats 5.24%)
+ * Memory: 13.98MB (Beats 93.89%)
  */
 
 class Solution {
@@ -34,4 +34,4 @@ public:
 // T.C. = O(N^2)
 // Testing Code Archive extension by @NipunRathore
 // solution + readme + images + stats
-// testing ui bar chart now 
+// testing ui bar chart now - 1 
