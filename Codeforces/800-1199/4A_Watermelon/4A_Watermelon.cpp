@@ -5,10 +5,10 @@
  * Difficulty: 800-1199
  * Tags: brute force, math, *800
  * Language: cpp
- * Date: 2026-03-22T11:08:45.439Z
+ * Date: 2026-03-22T11:11:36.480Z
  * Performance:
  * Runtime: 92ms
- * Memory: 0KB
+ * Memory: 100KB
  */
 
 // Code could not be extracted from submission page
