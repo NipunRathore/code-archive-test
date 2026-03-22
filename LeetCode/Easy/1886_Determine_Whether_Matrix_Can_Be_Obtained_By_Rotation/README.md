@@ -54,4 +54,4 @@ Explanation: We can rotate mat 90 degrees clockwise two times to make mat equal 
 
 **Language:** C++
 
-**Submitted:** 22/03/2026, 16:35:13
+**Submitted:** 22/03/2026, 16:36:47
