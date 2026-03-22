@@ -4,10 +4,10 @@
  * Problem URL: https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/
  * Difficulty: Easy
  * Language: C++
- * Date: 2026-03-22T11:02:44.008Z
+ * Date: 2026-03-22T11:05:13.933Z
  * Performance:
  * Runtime: 0ms (Beats 100.00%)
- * Memory: 14.54MB (Beats 70.77%)
+ * Memory: 14.67MB (Beats 41.55%)
  */
 
 class Solution {
