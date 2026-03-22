@@ -51,4 +51,4 @@ For example, the boys can divide the watermelon into two parts of 2 and 6 kilos 
 
 **Language:** cpp
 
-**Submitted:** 22/03/2026, 16:41:36
+**Submitted:** 22/03/2026, 16:43:06
